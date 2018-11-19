@@ -4,14 +4,13 @@
   border-bottom: 2px solid $lightest-gray;
   justify-content: center;
   padding: 10px;
-  // justify-content: space-between;
+
 }
-// .language-nav {
-// 	background: white;
-// 	border: 1px solid $light-gray;
-// 	border-bottom: none;
-// 
-// }
+
+.nav-list a:hover {
+	background-color: $lightest-gray;
+}
+
 .nav-list a {
   margin: 0 10px;
   font-family: $sans-serif;
@@ -27,3 +26,5 @@
   text-decoration: underline;
 }
 
+.nav-list span:hover {
+}
