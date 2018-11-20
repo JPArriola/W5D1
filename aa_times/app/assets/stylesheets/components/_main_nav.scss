@@ -20,11 +20,12 @@ border-bottom: 1px solid $light-gray;
 }
 
 .right-nav > ul > li {
+
   margin: 2px;
 }
 
 .right-nav > ul > li:last-of-type {
-
+  position: relative;
 }
 
 .left-nav > ul > li:hover,
